@@ -50,18 +50,20 @@ const SignUpPage = () => {
                                 type="text"
                                 required 
                                 value={firstname}
+                                className="bg-lightgreen"
                                 onChange ={(e)=> setFName(e.target.value)}  
                                 />
                        </div>
 
                        <div> 
                         <label> Last  Name : </label>
-                        <input 
-                        type="text"
-                        required 
-                        value={lastname}
-                        onChange ={(e)=> setLName(e.target.value)}  
-                        />
+                                <input 
+                                type="text"
+                                required 
+                                value={lastname}
+                                className="bg-lightgreen"
+                                onChange ={(e)=> setLName(e.target.value)}  
+                                />
                         </div>
                 </div>
                 
@@ -71,6 +73,7 @@ const SignUpPage = () => {
                   type="text"
                   required 
                   value={email}
+                  className="bg-lightgreen"
                   onChange ={(e)=> setEmail(e.target.value)}  
                   />
 
@@ -79,11 +82,13 @@ const SignUpPage = () => {
                   type="password"
                   required 
                   value={password}
+                  className="bg-lightgreen"
                   onChange ={(e)=> setPassword(e.target.value)}  
                   />
                  <label> Wilaya : </label>
                  <select
                      value={wilaya}
+                     className="bg-lightgreen"
                      onChange ={(e)=> setWilaya(e.target.value)} >
                      <option value="Adrar">ines</option>
                      <option value="Chlef">chlef </option>
@@ -93,7 +98,7 @@ const SignUpPage = () => {
                      </option>
                  </select>
  
-                    { !isPending ?  <button> sign up  </button>:<button disabled> loading  ... </button>}
+                    { !isPending ?  <button className="cursor-pointer bg-akhdhar text-white p-[8px]  border-0 rounded-[8px]"> sign up  </button>:<button disabled> loading  ... </button>}
                    
              </form>
                  

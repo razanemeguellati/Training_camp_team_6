@@ -10,20 +10,17 @@ const useFetch = (url) =>
      {
       const abortCont = new AbortController() ; 
         fetch(url , {signal : abortCont.signal}) 
-       /* the fetching result will be in res */
-         .then(res =>
+          .then(res =>
            { if(!res.ok)
             {
                 throw Error('could not fetch the cars from that ressource') ; 
             }
              return res.json() ;
           }) 
-           /* the return result will be in data  */
          .then(cars=>{
             setCars(cars) ; 
             setisPending(false) ;
             seterror(null) ;  
-            /* once we're here that means we're done loading */
          })
 
          .catch(err=>{
@@ -32,13 +29,10 @@ const useFetch = (url) =>
 
           }else
           { setisPending(false) ; 
-            /** we dont want to see loading if there's an error : it's not pending its wrong  */
             seterror(err.message)
           }
            
-         }) 
-         /* the err we threw in the first then will be catched here*/
-        
+         })         
          return () => 
          {console.log('cleanup')  ;    
          abortCont.abort()}
@@ -47,7 +41,6 @@ const useFetch = (url) =>
    
 
     useEffect(()=>useeffectfunction,[url]) 
-    /* whenever the url change it will trigger the use effect to get the dat once again */
     return { cars , isPending , error}
 
 }

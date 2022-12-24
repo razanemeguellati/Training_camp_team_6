@@ -22,7 +22,6 @@ const SignInPage = () => {
      .then((data)=>
      { 
          console.log('new user added') ;
-         // ... untill we have the data 
          setIsPending(false) ; 
          //
          const token = data.token
@@ -33,7 +32,9 @@ const SignInPage = () => {
  
  }
     return ( 
-         <div className="signin ">
+         <div className="createform p-[30px] ">
+              <h1 className=" text-akhdhar m-[10px] text-[30px] font-bold"> Sign In  </h1>
+      
              <form onSubmit={handleSubmit}>
  
                  <label > Email : </label>
@@ -41,7 +42,7 @@ const SignInPage = () => {
                   type="text"
                   required 
                   value={email}
-                  //e.target returns an object but to return the text we use value 
+                  className="bg-lightgreen"
                   onChange ={(e)=> setEmail(e.target.value)}  
                   />
 
@@ -50,15 +51,12 @@ const SignInPage = () => {
                   type="text"
                   required 
                   value={password}
-                  //e.target returns an object but to return the text we use value 
+                  className="bg-lightgreen"
                   onChange ={(e)=> setPassword(e.target.value)}  
                   />
            
                 {!isPending ? <button className="cursor-pointer bg-akhdhar text-white p-[8px]  border-0 rounded-[8px]"> Sign In </button>:<button disabled> logging in   ... </button>}
-     
-   
- 
-             </form>      
+              </form>      
                  
          </div>
       );
