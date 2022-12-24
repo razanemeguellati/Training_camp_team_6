@@ -1,8 +1,8 @@
 import '../App.css';
 const BestOffers = () => {
     return ( 
-        <div className="bestoffers" id="BestOffers">
-something here 
+        <div className="w-full h-screen bg-akhdhar" id="BestOffers">
+              something here 
         </div>
      );
 }

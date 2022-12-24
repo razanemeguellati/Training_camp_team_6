@@ -54,7 +54,9 @@ const SignInPage = () => {
                   onChange ={(e)=> setPassword(e.target.value)}  
                   />
            
-                {!isPending ? <button> Sign In </button>:<button disabled> logging in   ... </button>}
+                {!isPending ? <button className="cursor-pointer bg-akhdhar text-white p-[8px]  border-0 rounded-[8px]"> Sign In </button>:<button disabled> logging in   ... </button>}
+     
+   
  
              </form>      
                  

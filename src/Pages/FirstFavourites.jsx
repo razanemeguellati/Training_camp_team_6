@@ -1,6 +1,6 @@
 const FirstFavourites = () => {
     return (
-        <div>
+        <div className="">
             
         </div>
       );

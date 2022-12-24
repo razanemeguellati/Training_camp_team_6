@@ -13,10 +13,9 @@ function App() {
   return (
 
     <div className="App">
-
-       <div className="content">
-        <Router>
-          <Navbar></Navbar>
+       <Router>
+       <Navbar></Navbar>
+       <div className="content">         
           <Routes>
             <Route index element={<LandingPage/>} />
            <Route path="/SignInPage" element={<SignInPage/>}/>
@@ -25,8 +24,8 @@ function App() {
            <Route path="/Testing" element={<Testing/>}/>
            <Route path="/Research/:id" element={<SingleCar/>}/>
           </Routes>
-        </Router>
       </div>
+      </Router>
 
     </div>
   );

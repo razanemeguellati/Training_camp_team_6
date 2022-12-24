@@ -3,8 +3,9 @@ import '../App.css';
 
 const Header = () => {
     return (
-        <div className="header" id="Header">
-           Headre  
+        <div className="w-full h-screen  bg-asfar" id="Header">
+          
+           
         </div>
     );
 }

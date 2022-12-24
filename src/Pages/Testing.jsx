@@ -1,6 +1,6 @@
 const Testing  = () => {
     return ( 
-        <div className="bg-azra9 h-[30px] w-3/12">
+        <div className="bg-asfar h-screen w-full">
                     haja 
         </div>
      );

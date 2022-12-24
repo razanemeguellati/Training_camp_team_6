@@ -1,14 +1,16 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./src/**/*.{html,js}"],
+  content: ["./src/**/*.{html,jsx,js}"],
   theme: {
     extend: {},
     
     colors: {
       transparent: 'transparent',
       current: 'currentColor',
-      'ahmar': '#EE462F',
-      'azra9': '#A8D4FD',
+      'asfar': '#E3B21C',
+      'akhdhar': '#005058',
+      'gris': '#A2ACBD',
+      'lightgreen': '#E6F4F1',
       'white': '#FFFFFF' , 
     },
   },

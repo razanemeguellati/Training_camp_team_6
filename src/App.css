@@ -3,27 +3,6 @@ html {
 }
 
 
-.header
-{
- background-color: aqua;
- width: 100%;
- min-height: 100vh;
-}
-
-.bestoffers
-{
-  background-color: red;
-  width: 100%;
-  min-height: 100vh;
-}
-
-.aboutus
-{
-  background-color: blue;
-  width: 100%;
-  min-height: 100vh;
-}
-
 .signin
 {
   background-color: beige;
@@ -32,18 +11,43 @@ html {
  padding-top: 70px;
 }
 
-
+.content{
+  padding-top: 65px;
+}
 
 
  .navbar
  {
   position: fixed;
   top: 0px;
-  padding: 20px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  max-width: 900px;
-  margin: 0 auto;
+  padding: 15px;
+  margin: 0 ;
   border-bottom: 1px solid #f2f2f2; /*to draw the line*/
  }
+
+
+ .createform
+  { max-width: 400px;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .createform label
+   {
+    text-align: left;
+    display: block;
+   }
+
+   
+
+   .createform input , .createform textarea , .createform select
+   {
+    width: 100% ;
+    padding: 6px 8px ;
+    margin: 10px 0 ;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+    display: block;
+    border-radius: 10px;
+   }
+   

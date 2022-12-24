@@ -1,167 +1,36 @@
 {
   "users": [
     {
-      "name": "Ayoub Khenfouf ",
+      "firstname": "Ayoub",
+      "lastname": "khenfouf",
       "email": "kjdfg ",
       "password": "Julian Casablancas ",
       "wilaya": "Alger",
       "id": 1
     },
     {
-      "name": "Med tiouti ",
+      "firstname": "ouael",
+      "lastname": "sahbi",
       "email": "sjbhf@gmail.com",
       "password": "Julian",
       "wilaya": "Alger",
       "id": 2
     },
     {
-      "name": "ouael sahbi ",
+      "firstname": "sohaib",
+      "lastname": "zombo",
       "email": "skfbf@gmail.com",
       "password": "Casablancas ",
       "wilaya": "Alger",
       "id": 3
     },
     {
-      "name": "Yousra farhani ",
-      "email": "kjdfg@gmail.com ",
-      "password": "Jsomething",
-      "wilaya": "Alger",
-      "id": 4
-    },
-    {
-      "name": "jsdhfjhdsfhjbsdf",
-      "email": "jbfvhbf",
-      "password": "hgdvgh",
-      "id": 5
-    },
-    {
-      "name": "jsdhfjhdsfhjbsdf",
-      "email": "abdeljali@gmailcom",
-      "password": "jsgfksdhf",
-      "id": 6
-    },
-    {
-      "name": "jsgfhsf",
-      "email": "dkhfhgf",
-      "password": "thisiscool",
-      "id": 7
-    },
-    {
-      "name": "jsgfhsf",
-      "email": "dkhfhgf",
-      "password": "thisiscool",
-      "id": 8
-    },
-    {
-      "name": "jsgfhsf",
-      "email": "dkhfhgf",
-      "password": "thisiscool",
-      "id": 9
-    },
-    {
-      "name": "jsgfhsf",
-      "email": "dkhfhgf",
-      "password": "thisiscool",
-      "id": 10
-    },
-    {
-      "email": "kjxbvkx",
-      "password": "vsdv",
-      "id": 11
-    },
-    {
-      "email": "kkjbhkjh",
-      "password": "jkbkhkjjkkjuihiuggf",
-      "id": 12
-    },
-    {
-      "email": "kkjbhkjh",
-      "password": "jkbkhkjjkkjuihiuggf",
-      "id": 13
-    },
-    {
-      "name": "qjggf",
-      "email": "kl_meguellati@gmail.dz",
-      "password": "jhsdgfugfdu",
+      "firstname": "jsdf",
+      "lastname": "jfygqdf",
+      "email": "sdfsfqkjch",
+      "password": "waouzhefi",
       "wilaya": "Laghouat",
-      "id": 14
-    },
-    {
-      "name": "sjfgqkfjqf",
-      "email": "qkufhqfqf",
-      "password": "qfqf",
-      "wilaya": "",
-      "id": 15
-    },
-    {
-      "name": "sjfgqkfjqf",
-      "email": "qkufhqfqf",
-      "password": "qfqf",
-      "wilaya": "",
-      "id": 16
-    },
-    {
-      "name": "sjfgqkfkhj",
-      "email": "qkufhqfqf",
-      "password": "qfqf",
-      "wilaya": "",
-      "id": 17
-    },
-    {
-      "name": "sjfgqkfkhj",
-      "email": "qkufhqfqf",
-      "password": "qfqf",
-      "wilaya": "",
-      "id": 18
-    },
-    {
-      "name": "sjfgqkfkhj",
-      "email": "qkufhqfqf",
-      "password": "qfqf",
-      "wilaya": "",
-      "id": 19
-    },
-    {
-      "name": "sjfgqkfkhj",
-      "email": "qkufhqfqf",
-      "password": "qfqf",
-      "wilaya": "",
-      "id": 20
-    },
-    {
-      "name": "sjfgqkfkhj",
-      "email": "qkufhqfqf",
-      "password": "qfqf",
-      "wilaya": "",
-      "id": 21
-    },
-    {
-      "name": "sjfgqkfkhj",
-      "email": "qkufhqfqf",
-      "password": "qfqf",
-      "wilaya": "",
-      "id": 22
-    },
-    {
-      "name": "sjfgqkfkhj",
-      "email": "qkufhqfqf",
-      "password": "qfqf",
-      "wilaya": "",
-      "id": 23
-    },
-    {
-      "name": "qkfkqfhkjbqk",
-      "email": "qkhfd",
-      "password": "qf",
-      "wilaya": "",
-      "id": 24
-    },
-    {
-      "name": "qkfkqfhkjbqk",
-      "email": "qkhfd",
-      "password": "qf",
-      "wilaya": "",
-      "id": 25
+      "id": 4
     }
   ]
 }

@@ -2,7 +2,8 @@ import { useState } from "react";
 //import { useHistory } from 'react-router-dom';
 
 const SignUpPage = () => {
-    const[name , setName] = useState('') ; 
+    const[firstname , setFName] = useState('') ; 
+    const[lastname , setLName] = useState('') ; 
     const[email , setEmail] = useState('') ; 
     const[password, setPassword] = useState('') ; 
     const[wilaya, setWilaya] = useState('') ; 
@@ -13,7 +14,7 @@ const SignUpPage = () => {
  const handleSubmit =(e) =>
  {
     e.preventDefault() ; 
-    const user = { name , email , password  , wilaya} ; 
+    const user = { firstname , lastname  , email , password  , wilaya} ; 
      setIsPending(true) ; 
 
     fetch('http://localhost:8000/users' , 
@@ -37,16 +38,33 @@ const SignUpPage = () => {
  
  }
     return ( 
-         <div className="p-[30px] bg-azra9 ">
+         <div className="createform p-[30px] bg-azra9 ">
+            <h1 className=" text-akhdhar m-[10px] text-[30px] font-bold"> Create an account </h1>
+      
              <form onSubmit={handleSubmit}>
  
-                 <label> Full Name : </label>
-                 <input 
-                  type="text"
-                  required 
-                  value={name}
-                  onChange ={(e)=> setName(e.target.value)}  
-                  />
+                <div className="flex flex-row gap-2">
+                       <div>
+                            <label> First Name : </label>
+                                <input 
+                                type="text"
+                                required 
+                                value={firstname}
+                                onChange ={(e)=> setFName(e.target.value)}  
+                                />
+                       </div>
+
+                       <div> 
+                        <label> Last  Name : </label>
+                        <input 
+                        type="text"
+                        required 
+                        value={lastname}
+                        onChange ={(e)=> setLName(e.target.value)}  
+                        />
+                        </div>
+                </div>
+                
  
                  <label > Email : </label>
                  <input 
@@ -58,7 +76,7 @@ const SignUpPage = () => {
 
                  <label > Password : </label>
                  <input 
-                  type="text"
+                  type="password"
                   required 
                   value={password}
                   onChange ={(e)=> setPassword(e.target.value)}  
