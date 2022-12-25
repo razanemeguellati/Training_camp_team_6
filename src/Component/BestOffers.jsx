@@ -5,8 +5,9 @@ import "swiper/css";
 
 
 const BestOffers = () => {
+   
     return ( 
-        <div className="w-full h-screen " id="BestOffers">
+        <div className="w-full h-screen pt-[90px]" id="BestOffers">
              
               <Title title={" Meilleurs Offres"}></Title>
               <Swiper>

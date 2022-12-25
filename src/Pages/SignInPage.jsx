@@ -1,3 +1,4 @@
+import Cookies from "cookies";
 import { useState } from "react";
 
 const SignInPage = () => { 
@@ -21,6 +22,7 @@ const SignInPage = () => {
      ) 
      .then((data)=>
      { 
+        Cookies.set("user", JSON.stringify(data), { expires: 30 });
          console.log('new user added') ;
          setIsPending(false) ; 
          //
@@ -33,7 +35,7 @@ const SignInPage = () => {
  }
     return ( 
          <div className="createform p-[30px] ">
-              <h1 className=" text-akhdhar m-[10px] text-[30px] font-bold"> Sign In  </h1>
+              <h1 className=" text-akhdhar m-[10px] text-[30px] font-bold "> Sign In  </h1>
       
              <form onSubmit={handleSubmit}>
  

@@ -5,7 +5,7 @@ const AnnonceCompo = (props) => {
     return ( 
         <div className="  rounded-lg w-1/4">
               
-              <div className=" border-asfar ml-[20px] shadow-black border-2 w-[200px] h-[250px] p-[10px] rounded-lg">
+              <div className=" border-asfar ml-[20px] shadow-gray-900 shadow-xl dh border-2 w-[200px] h-[250px] p-[10px] rounded-lg ">
               <img className="rounded-lg" src={carpic} alt="" />
               <h3 > {car.name} </h3>
               <h2> {car.type} </h2> 
