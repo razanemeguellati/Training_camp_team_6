@@ -68,3 +68,6 @@ html {
 {    width: 100%;  
 }
   
+.Footer{
+  box-shadow: 0 0 10px 0  white inset;
+}

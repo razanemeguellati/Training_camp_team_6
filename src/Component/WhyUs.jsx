@@ -1,24 +1,28 @@
-import SimpleAnnonce from "./SimpleAnnonce";
+import SimpleAnnonce from "./SimpleRect";
 import Title from "./Title";
+import first from "../assets/first.png" ; 
+import second from "../assets/second.png" ; 
+import third from "../assets/third.png" ; 
+import forth from "../assets/forth.png" ; 
 
 const WhyUs = () => {
     const PrqNousPics =
         [
             {
                 description: "+1256 offers ",
-                picture: "",
+                picture: first,
             },
             {
                 description: "+2500 users",
-                picture: "",
+                picture: second,
             },
             {
                 description: "58 wilayas",
-                picture: "",
+                picture: third,
             },
             {
                 description: "+568 models",
-                picture: "",
+                picture: forth,
             }
         ]
     return (
@@ -27,8 +31,8 @@ const WhyUs = () => {
             <Title title={"Qui Sommes Nous ? "}></Title>
             <div className="flex flex-row mt-[50px]">
                 {PrqNousPics.map((pic) =>
-                (<div className=" flex flex-row w-1/5 mx-auto" >
-                    <SimpleAnnonce image={pic.picture} desc={pic.description}></SimpleAnnonce>
+                (<div className=" flex flex-row justify-center items-center  mx-auto" >
+                    <SimpleAnnonce imagesrc={pic.picture} desc={pic.description}></SimpleAnnonce>
                 </div>
                 ))}
             </div>

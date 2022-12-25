@@ -90,12 +90,12 @@ const SignUpPage = () => {
                      value={wilaya}
                      className="bg-lightgreen"
                      onChange ={(e)=> setWilaya(e.target.value)} >
-                     <option value="Adrar">ines</option>
+                     <option value="Adrar">Adrar</option>
                      <option value="Chlef">chlef </option>
                      <option value="Laghouat">laghouat </option>
-                     <option value="Oum El Bouaghi">oum el bouaghi </option>
-                     <option value="Batna">batna
-                     </option>
+                     <option value="Oum El Bouaghi">oum elbouaghi </option>
+                     <option value="Batna">batna </option>
+                     <option value="Batna">bejaia  </option>
                  </select>
  
                     { !isPending ?  <button className="cursor-pointer bg-akhdhar text-white p-[8px]  border-0 rounded-[8px]"> sign up  </button>:<button disabled> loading  ... </button>}

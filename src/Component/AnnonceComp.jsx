@@ -3,7 +3,7 @@ import LocationIcon from '../assets/icons/location.svg'
 const AnnonceCompo = (props) => {
    const car = props.car
     return ( 
-        <div className="  rounded-lg w-1/4">
+        <div className=" rounded-lg w-1/4">
               
               <div className=" border-asfar ml-[20px] shadow-gray-900 shadow-xl dh border-2 w-[200px] h-[250px] p-[10px] rounded-lg ">
               <img className="rounded-lg" src={carpic} alt="" />
